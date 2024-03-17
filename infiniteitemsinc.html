@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <meta charset="UTF-8" />
+    <title>Infinite Items Inc.</title>
+    <link rel="icon" type="image/x-icon" href="icons8-boxes-64.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+</head>
+<style>
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+}
+
+/* selected link */
+a:active {
+  color: white;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+body {
+                font-family: "Amatic SC", sans-serif
+            }
+
+    body {
+      background-color: rgb(255, 255, 255);
+    }
+    </style>
+<body>
+    <style>
+        html {
+          box-sizing: border-box;
+        }
+        
+        *, *:before, *:after {
+          box-sizing: inherit;
+        }
+        
+        .column {
+          float: left;
+          width: 16%;
+          margin-bottom: 16px;
+          padding: 0 8px;
+        }
+        
+        @media screen and (max-width: 650px) {
+          .column {
+            width: 100%;
+            display: block;
+          }
+        }
+        
+        .card {
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+        
+        .container {
+          padding: 0 16px;
+        }
+        
+        .container::after, .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+        
+        .title {
+          color: grey;
+        }
+        
+        .button {
+          border: none;
+          outline: 0;
+          display: inline-block;
+          padding: 8px;
+          color: white;
+          background-color: #000;
+          text-align: center;
+          cursor: pointer;
+          width: 100%;
+        }
+        
+        .button:hover {
+          background-color: #555;
+        }
+        </style>
+        <div class="row">
+          <div class="column">
+        <div class="card" style="width: 18rem; border-radius: 20px; overflow: hidden;">
+        <img src="xboxsampleimage.jpg" alt="Xbox Contoller" style="width:100%">
+              <div class="container">
+                <h2>Black PowerA Wired Xbox Controller</h2>
+                <p class="title">Stock: 1</p>
+                <p><button class="button"><a href="">Shop This Item</a></button></p>
+              </div>
+            </div>
+          </div>
+        
+          <div class="column">
+        <div class="card" style="width: 18rem; border-radius: 20px; overflow: hidden;">
+        <img src="/w3images/team2.jpg" alt="Mike" style="width:100%">
+              <div class="container">
+                <h2>Mike Ross</h2>
+                <p class="title">Art Director</p>
+                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                <p>example@example.com</p>
+                <p><button class="button" style="font-family: ;">Shop This Item</button></p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="column">
+        <div class="card" style="width: 18rem; border-radius: 20px; overflow: hidden;">
+        <img src="/w3images/team3.jpg" alt="John" style="width:100%">
+              <div class="container">
+                <h2>John Doe</h2>
+                <p class="title">Designer</p>
+                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                <p>example@example.com</p>
+                <p><button class="button">Contact</button></p>
+              </div>
+            </div>
+          </div>
+        </div>
+</body>
+</html>
